@@ -1,0 +1,186 @@
+
+/* section1 */
+#mynavbar a{
+  font-weight: bolder;
+}
+#mynavbar a:hover{
+    color: #ffc107;
+    text-decoration: none;
+}
+@media(max-width:460px){
+    #mynavbar a{
+       text-align: center;
+      }
+     
+      #mynavbar1{
+       display: flex;
+       justify-content: center;
+       margin-bottom: 5px;
+      }
+      
+}
+
+#sec2{
+    margin-top: 0px;
+    text-align: center;
+  
+
+}
+#bx1{
+    margin-bottom: 300px;
+}
+
+
+#sec3{
+    background-color:#f6f6f6 ;
+}
+
+/* section3 */
+
+p{
+    font-size: 15px;
+}
+.inbox{
+    text-align: center;
+    padding: 100px 0px;
+}
+
+.pr1{
+    width: 70px;
+    position: absolute;
+    right: 175px;
+}
+
+/* section4 */
+.inbox1 a,.inbox2 a,.inbox3 a{
+    text-decoration: none;
+    font-size: 15px;
+   
+}
+.inbox1{
+    text-align: justify;
+    padding: 100px;
+    padding-bottom: 0px;
+    padding-left: 100px;
+    
+}
+@media(max-width:460px){
+    .inbox1{
+       padding: 50px;
+    }
+
+}
+/* section5 */
+#sec5{
+    background-color: #f6f6f6;
+}
+.inbox2{
+    text-align: justify;
+    padding: 100px;
+    padding-bottom: 0px;
+    padding-left: 100px;
+}
+@media(max-width:460px){
+    .inbox2{
+       padding:50px;
+    }
+}
+/* section6 */
+.inbox3{
+    text-align: center;
+    padding: 100px 0px;
+}
+@media(max-width:460px){
+    .inbox3{
+       padding:20px 0;
+    }
+}
+
+/* section7 */
+#sec7{
+    position: relative;
+}
+.inbox4{
+    text-align: center;
+    padding: 50px 0px;
+}
+.leaf{
+    position: absolute;
+    left:45%;
+    bottom: -150px;
+   
+}
+@media(max-width:460px){
+    .leaf{
+        height:100px;
+        left:45%;
+    bottom: -48px;
+    }
+}
+/* section8 */
+.inbox5{
+    text-align: center;
+    padding: 100px 0px;
+}
+@media(max-width:460px){
+    .inbox5{
+        text-align: center;
+        padding: 30px 0px;
+    }
+}
+#sec8
+{
+    background-color: #6a989c;
+}
+
+/* section9 */
+.inbox6{
+    text-align: center;
+    padding: 100px 0px;
+}
+.p1{
+    font-style: italic;
+}
+/* section 10 */
+#sec10{
+    background-color: rgb(0, 0, 0);
+    min-height: 500px;
+}
+.inbox7{
+    text-align: center;
+    padding: 50px 0px;
+}
+@media(max-width:460px){
+    .inbox7{
+        padding: 10px 0px;
+    }
+}
+.inbox7 a{
+    font-weight: bold;
+}
+
+.ci{
+    position: relative;
+}
+.parallel1{
+    position: absolute;
+    bottom: -25px;
+    left: 0px;
+    height: 50px;
+    background-color: #f6f6f6;
+   
+    transform: skew(40deg);
+    width: 50%;
+    z-index: 1000;
+}
+.parallel2{
+    position: absolute;
+    bottom: -25px;
+    right: 0px;
+    height: 50px;
+    background-color: #f6f6f6;
+   
+    transform: skew(-40deg);
+    width: 50%;
+    z-index: 1000;
+}
